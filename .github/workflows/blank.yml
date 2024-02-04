@@ -17,5 +17,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          echo Running!
+          echo Running! 2
           echo Hello "$FOOBAR"
