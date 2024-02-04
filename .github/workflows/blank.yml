@@ -17,8 +17,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          echo Running! 4
-          echo "Hello $vars.FOOBAR"
+          echo Running! 5
           echo "Hello ${{vars.FOOBAR}}"
-          echo "Hello $FOOBAR"
-          echo "Hello ${FOOBAR}"
