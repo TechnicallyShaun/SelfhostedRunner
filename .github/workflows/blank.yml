@@ -19,6 +19,7 @@ jobs:
         run: |
           echo Running! 5
           echo "Hello ${{vars.FOOBAR}}"
-          find ./ -name 'hello.txt' -exec cp "{}" ~/ \;
-          ssh ${{secrets.UTILITY_SERVER_CONN}}
+          find ./ -name 'hello.txt'
+          #ssh ${{secrets.UTILITY_SERVER_CONN}}
           touch ~/base.txt
+          scp /path/to/file username@a:/path/to/destination
