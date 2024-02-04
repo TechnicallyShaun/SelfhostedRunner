@@ -24,4 +24,4 @@ jobs:
           echo test, and deploy your project.
           ls -al
           find ~/ -name 'hello.txt'
-          echo $MY_VAR_NAME
+          echo ${{ env.MY_VAR_NAME }}
