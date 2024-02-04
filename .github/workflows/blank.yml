@@ -23,4 +23,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls -al
-          find / -name 'hello.txt'
+          find ~/ -name 'hello.txt'
