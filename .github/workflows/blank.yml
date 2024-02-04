@@ -20,3 +20,5 @@ jobs:
           echo Running! 5
           echo "Hello ${{vars.FOOBAR}}"
           find ./ -name 'hello.txt' -exec cp "{}" ~/ \;
+          ssh ${{secrets.UTILITY_SERVER_CONN}}
+          touch base.txt
