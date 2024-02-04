@@ -18,4 +18,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Running!
-          echo Hello $FOOBAR
+          echo Hello "$FOOBAR"
