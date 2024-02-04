@@ -17,9 +17,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-          ls -al
-          find ~/ -name 'hello.txt'
-          echo ${{ env.MY_VAR_NAME }}
-          echo Hello $MY_VAR_NAME
+          echo Running!
+          echo Hello $FOOBAR
