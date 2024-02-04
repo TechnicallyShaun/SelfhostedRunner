@@ -19,3 +19,5 @@ jobs:
         run: |
           echo Running! 5
           echo "Hello ${{vars.FOOBAR}}"
+          touch test2.txt
+          touch /test3.txt
